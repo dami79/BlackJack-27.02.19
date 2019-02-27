@@ -54,11 +54,6 @@ class Dealer(Player):
         return f'W banku jest teraz {self.money}zł'
 
 
-def bj(x, name):
-    if x == 21:
-        print(f'{y} wygrał. BLACK JACK!!!')
-
-
 def bank_start():
     x = random.choice(talia)
     return x
